@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T02:10:05Z" name="DGDOX" finished-at="2022-02-22T02:11:14Z" duration-ms="69852">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T02:10:05Z" name="Login edge" finished-at="2022-02-22T02:11:14Z" duration-ms="69852">
+      <class name="dgdox.DGTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:05Z" name="setup" finished-at="2022-02-21T21:10:09Z" duration-ms="4694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:1, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:09Z" name="Login" finished-at="2022-02-21T21:10:12Z" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="mode()[pri:2, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:12Z" name="mode" finished-at="2022-02-21T21:10:13Z" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mode -->
+        <test-method signature="addShiper()[pri:3, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:13Z" name="addShiper" finished-at="2022-02-21T21:10:21Z" duration-ms="7399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addShiper -->
+        <test-method signature="addConsignee()[pri:4, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:21Z" name="addConsignee" finished-at="2022-02-21T21:10:26Z" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addConsignee -->
+        <test-method signature="AddShipment()[pri:5, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:10:26Z" name="AddShipment" finished-at="2022-02-21T21:11:14Z" duration-ms="48120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShipment -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:dgdox.DGTest@4c398c80]" started-at="2022-02-21T21:11:14Z" name="tear" finished-at="2022-02-21T21:11:14Z" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- dgdox.DGTest -->
+    </test> <!-- Login edge -->
+  </suite> <!-- DGDOX -->
+</testng-results>

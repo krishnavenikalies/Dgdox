@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DGDOX" >
+<listeners>
+<listener class-name="dgdox.Listeners"/>
+</listeners>
+
+  <test  name="Login edge"  >
+  
+    
+     <!-- <parameter name="browser" value="chrome" />-->
+      <classes>
+      
+    <!--  <class name="dgdox.TestcaseLogin_01"/>-->
+        
+    <!--  <class name="dgdox.TestcaseMode_02"/>-->
+<!-- <class name="dgdox.TestcaseAddShipper_03"/>-->
+   
+ <!--  <class name="dgdox.DGTest"/>-->
+ <!--  <class name="dgdox.dataProvider"/>-->
+   <class name="dgdox.conditional"/>
+  
+ </classes>
+  
+  </test>
+  
+    
+  
+
+</suite> 

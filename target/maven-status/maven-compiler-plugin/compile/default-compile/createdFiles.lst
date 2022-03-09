@@ -1,0 +1,8 @@
+dgdox\pageobjects\loginpage.class
+dgdox\pageobjects\Selectmode.class
+dgdox\utilities\Readconfig.class
+dgdox\pageobjects\AddShipment.class
+dgdox\pageobjects\AddShipper.class
+dgdox\utilities\Datadriven.class
+dgdox\pageobjects\AddConsignee.class
+dgdox\utilities\extentutilities.class
