@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="3" failed="7" skipped="0">
+<testng-results ignored="0" total="12" passed="3" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-07T16:57:07 EST" name="DGDOX" finished-at="2022-03-07T16:57:55 EST" duration-ms="47774">
+  <suite started-at="2022-03-09T17:46:24 EST" name="DGDOX" finished-at="2022-03-09T17:46:56 EST" duration-ms="31729">
     <groups>
     </groups>
-    <test started-at="2022-03-07T16:57:07 EST" name="Login edge" finished-at="2022-03-07T16:57:55 EST" duration-ms="47774">
+    <test started-at="2022-03-09T17:46:24 EST" name="Login edge" finished-at="2022-03-09T17:46:56 EST" duration-ms="31729">
       <class name="dgdox.conditional">
-        <test-method is-config="true" signature="setup()[pri:0, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:07 EST" name="setup" finished-at="2022-03-07T16:57:11 EST" duration-ms="4269" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:24 EST" name="setup" finished-at="2022-03-09T17:46:28 EST" duration-ms="3916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addShippermode()[pri:1, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:11 EST" name="addShippermode" finished-at="2022-03-07T16:57:15 EST" duration-ms="3355" status="PASS">
+        <test-method signature="addShippermode()[pri:1, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:28 EST" name="addShippermode" finished-at="2022-03-09T17:46:32 EST" duration-ms="3700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addShippermode -->
-        <test-method signature="AddShipment()[pri:2, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:15 EST" name="AddShipment" finished-at="2022-03-07T16:57:15 EST" duration-ms="333" status="PASS">
+        <test-method signature="AddShipment()[pri:2, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:32 EST" name="AddShipment" finished-at="2022-03-09T17:46:32 EST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShipment -->
-        <test-method signature="AddConsignee()[pri:3, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:15 EST" name="AddConsignee" finished-at="2022-03-07T16:57:16 EST" duration-ms="895" status="PASS">
+        <test-method signature="AddConsignee()[pri:3, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:32 EST" name="AddConsignee" finished-at="2022-03-09T17:46:33 EST" duration-ms="903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddConsignee -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:17 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:40 EST" duration-ms="23303" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:34 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:37 EST" duration-ms="2730" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[  Gasoline ]]>
+                <![CDATA[Gasoline]]>
               </value>
             </param>
             <param index="2">
@@ -106,43 +106,17 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[element not interactable
-  (Session info: MicrosoftEdge=99.0.1150.30)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=fd3d5e41-b0c2-4e8b-bab4-9f2d1dec0ca7}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> xpath: //div[@id='iata_psn_pop_chosen']//ul[@class='chosen-results']/li]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ") Statement" to complete IfStatement
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=99.0.1150.30)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=fd3d5e41-b0c2-4e8b-bab4-9f2d1dec0ca7}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> xpath: //div[@id='iata_psn_pop_chosen']//ul[@class='chosen-results']/li]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at dgdox.conditional.selectPSN(conditional.java:429)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ") Statement" to complete IfStatement
+
+at dgdox.conditional.selectPSN(conditional.java:423)
 at dgdox.conditional.AddShip(conditional.java:165)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -174,11 +148,491 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:41 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:43 EST" duration-ms="2110" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:37 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:40 EST" duration-ms="2082" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1517]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cargo Only]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Non-Bulk]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Glass(es)]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1B2 - Aluminium drum(s), removable head]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[157]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at dgdox.conditional.AddShip(conditional.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShip -->
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:40 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:42 EST" duration-ms="2112" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1411]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cargo Only]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Non-Bulk]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Glass(es)]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1B1 - Aluminium drum(s), non-removable head]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[156]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at dgdox.conditional.AddShip(conditional.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShip -->
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:42 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:44 EST" duration-ms="2101" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1403]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cargo Only]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Non-Bulk]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Metal]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1D - Plywood drum(s)]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
+  (Session info: MicrosoftEdge=99.0.1150.36)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at dgdox.conditional.AddShip(conditional.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShip -->
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:44 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:46 EST" duration-ms="2100" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -264,25 +718,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -338,7 +792,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:43 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:45 EST" duration-ms="2102" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:47 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:49 EST" duration-ms="2092" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -424,25 +878,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -498,167 +952,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:45 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:47 EST" duration-ms="2098" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1203]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gasoline]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[II]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Cargo Only]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[-]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Non-Bulk]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[-]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[-]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Metal]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[1B1 - Aluminium drum(s), non-removable head]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[125]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at dgdox.conditional.AddShip(conditional.java:151)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:48 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:50 EST" duration-ms="2105" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:49 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:51 EST" duration-ms="2101" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -744,25 +1038,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -818,7 +1112,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:50 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:52 EST" duration-ms="2121" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:51 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:53 EST" duration-ms="2083" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -832,7 +1126,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[II]]>
+                <![CDATA[-]]>
               </value>
             </param>
             <param index="3">
@@ -903,26 +1197,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <li class="active-result" data-option-array-index="3" style="">...</li>
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <li class="active-result" data-option-array-index="3" style="">...</li>
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -978,7 +1272,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:52 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-07T16:57:54 EST" duration-ms="2103" status="FAIL">
+        <test-method signature="AddShip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:54 EST" name="AddShip" data-provider="addUN" finished-at="2022-03-09T17:46:56 EST" duration-ms="2090" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -992,7 +1286,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[II]]>
+                <![CDATA[-]]>
               </value>
             </param>
             <param index="3">
@@ -1064,25 +1358,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669]]>
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" class="addShipment" onclick="addShipmentPopUp('add','','','')">...</a> is not clickable at point (772, 452). Other element would receive the click: <div class="bootbox modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">...</div>
-  (Session info: MicrosoftEdge=99.0.1150.30)
+  (Session info: MicrosoftEdge=99.0.1150.36)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-8FVIUIV', ip: '192.168.2.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b0c862ef3b5fb4734e256196b8e7669, clickElement {id=660b9950-85c0-4ed7-acd3-64197c8cd893}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52723}, msedge: {msedgedriverVersion: 99.0.1150.30 (af824eea97db2..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 99.0.1150.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (8b0c862ef3b5fb4734e256196b8e7669)] -> class: addShipment]
-Session ID: 8b0c862ef3b5fb4734e256196b8e7669
+Command: [eaad2f327777a0f87c43651144b6e4ed, clickElement {id=fbccfbae-2446-4256-a383-67ce956e5613}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.36, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59956}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\bewit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59956/devtoo..., se:cdpVersion: 99.0.1150.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (eaad2f327777a0f87c43651144b6e4ed)] -> class: addShipment]
+Session ID: eaad2f327777a0f87c43651144b6e4ed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1138,7 +1432,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShip -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-07T16:57:55 EST" name="tear" finished-at="2022-03-07T16:57:55 EST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tear()[pri:0, instance:dgdox.conditional@7e6ef134]" started-at="2022-03-09T17:46:56 EST" name="tear" finished-at="2022-03-09T17:46:56 EST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->

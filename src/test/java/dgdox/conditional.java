@@ -420,22 +420,22 @@ public class conditional extends Baseclass {
 			  System.out.println("Before if"+selectPSN.getText());
 		
 			  
-			  if (selectPSN.getText().contentEquals("Gasoline"));
+			  if (selectPSN.getText().trim().contains(SelectPSN));
 			 
 			  { System.out.println(SelectPSN);
-			//  Thread.sleep(1000);
+			 Thread.sleep(1000);
 			 
 			  System.out.println(selectPSN); 
 			  selectPSN.click();
 			  logger.info("PSN Selected"); }
-			 
+			 }
 			 
 			
 			System.out.println("OK Button"+addShipment.addPSN());
 		/*	Select elementSelect=new Select(driver.findElement(By.id("iata_psn_pop")));
 			elementSelect..selectByVisibleText(SelectPSN);*/
 
-			addShipment.addPSN().click();}}
+			addShipment.addPSN().click();}
 			
 		
 		else if (UNNumber.equals(elementProperties.getProperty("UN1212"))) {
@@ -457,7 +457,7 @@ public class conditional extends Baseclass {
 			}
 
           
-			 
+			Thread.sleep(1000); 
 
 			addShipment.addPSN().click();
 			logger.info("Added PSN");
