@@ -58,7 +58,11 @@ private WebDriver driver;
 	WebElement shippingModElement;
 	
 	@FindBy(xpath="//section[@class='col col-2 combination_mode']//label[contains(@class,'radio')][normalize-space()='Yes']//i")
-	WebElement combElement;
+	
+		WebElement combElement;
+	
+	@FindBy(xpath="//section[@class='col col-2 combination_mode']//label[@class='radio']//i")
+	WebElement combElementNo;
 	
 	@FindBy(id="select2-inner_packing_type-container")
 	WebElement packType;
@@ -107,16 +111,46 @@ private WebDriver driver;
 	@FindBy(xpath="//div[@id='iata_psn_pop_chosen']//ul[@class='chosen-results']/li")
 	List<WebElement> selectPSNOptions;
 	
-	/*@FindBy(css ="div[class='modal-dialog'] button:nth-child(2)")
-	WebElement addPSN;*/
+	
 	
 	 @FindBy(xpath="//div[@class='modal-dialog']//button[2]")
 	  WebElement addPSN; 
-	/* @FindBy(xpath=".//*[@class='modal-dialog']//*[@class='btn btn btn-primary']")
-	  WebElement addPSN; */
-
+	
 	@FindBy(xpath="//div[@role='dialog']//section[@class='col col-3 iata_viscous_substance']//label[1]//i[1]")
 	WebElement viscousYesElement;
+	
+	@FindBy(xpath="//div[@role='dialog']//section[@class='col col-3 iata_viscous_substance']//label[2]//i[1]")
+	WebElement viscousNoElement;
+	
+	@FindBy(xpath="//section[@class='col col-4 shiping_mode']//label[@class='radio spm_lq']//i")
+	WebElement ShipmodeLQ;
+	
+	@FindBy(xpath="//label[@class='radio spm_eq']//i")
+	WebElement ShipmodeEQ;
+	
+	public WebElement shipmodeEQ()
+	{
+		return ShipmodeEQ;
+	}
+	
+	
+	public WebElement shipmodeLQ()
+	{
+		return ShipmodeLQ;
+	}
+	
+	public WebElement combNo()
+	{
+		return combElementNo;
+	}
+	
+	
+	
+	
+	public WebElement viscousNo()
+	{
+		return viscousNoElement;
+	}
 	
 	public WebElement  addClone()
 	{

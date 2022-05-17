@@ -18,7 +18,8 @@
    
  <!--  <class name="dgdox.DGTest"/>-->
  <!--  <class name="dgdox.dataProvider"/>-->
-   <class name="dgdox.conditional"/>
+ <!--  <class name="dgdox.conditional"/>-->
+   <class name="dgdox.practice5"/>
   
  </classes>
   

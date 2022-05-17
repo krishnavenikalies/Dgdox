@@ -147,7 +147,7 @@ public class conditional extends Baseclass {
 		System.out.println(PkgGroup + AircraftType);
 
 		addShipment = new AddShipment(driver);
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		addShipment.addShipment().click();
 		WebElement element = addShipment.addProduct();
 		logger.debug("Clicked Add Product");
@@ -220,6 +220,13 @@ public class conditional extends Baseclass {
 			addShipment.Shippingmode().click();
 			logger.debug("Non Bulk selected");
 		}
+		else if(ShippingMode.equals("EQ"))
+		{
+			addShipment.shipmodeEQ().click();
+		}
+		else {
+			addShipment.shipmodeLQ().click();
+		}
 	}
 
 	public void combinationPkg(String CombinationPkg) {
@@ -229,6 +236,10 @@ public class conditional extends Baseclass {
 			addShipment.combElement().click();
 
 			logger.debug("Combination package clicked YES");
+		}
+		else {
+			addShipment.combNo().click();
+			logger.debug("Combination Package clicked No");
 		}
 
 	}
@@ -241,7 +252,12 @@ public class conditional extends Baseclass {
 			if (Viscous.equals(elementProperties.getProperty("viscousyes"))) {
 				addShipment.viscousYes().click();
 				logger.info("Viscous selected with yes Option");
+				
+				
 			}
+			else
+				addShipment.viscousNo().click();
+			
 		}
 	}
 
@@ -391,11 +407,11 @@ public class conditional extends Baseclass {
 			addShipment.selectPSN().click();
 			System.out.println("Clicked Select");
 
-		/*	List<WebElement> selectPSNOptionsElements = addShipment.selectPSNOptions();
-			for (int i = 1; i <= selectPSNOptionsElements.size(); i++) {
+		List<WebElement> selectPSNOptionsElements = addShipment.selectPSNOptions();
+			for (int i = 1; i < selectPSNOptionsElements.size(); i++) {
 				System.out.println(selectPSNOptionsElements.get(i).getText());
 				String selectPSNE = selectPSNOptionsElements.get(i).getText();
-				if (selectPSNE.contains("Gasoline"))
+				if (selectPSNE.contains(SelectPSN))
 					
 
 				{
@@ -404,6 +420,7 @@ public class conditional extends Baseclass {
 					System.out.println(selectPSNE);
 					selectPSNOptionsElements.get(i).click();
 					logger.info("PSN Selected");
+					break;
 					
 				}
 
@@ -411,32 +428,30 @@ public class conditional extends Baseclass {
 			//Thread.sleep(1000);
 			addShipment.addPSN().click();
 		}
-			*/
-		
-			List<WebElement> selectPSNOptionsElements = addShipment.selectPSNOptions();
-			 for (WebElement selectPSN : selectPSNOptionsElements) {
-			  System.out.println("Before if"+SelectPSN);
-			  
-			  System.out.println("Before if"+selectPSN.getText());
-		
-			  
-			  if (selectPSN.getText().trim().contains(SelectPSN));
-			 
-			  { System.out.println(SelectPSN);
-			 Thread.sleep(1000);
-			 
-			  System.out.println(selectPSN); 
-			  selectPSN.click();
-			  logger.info("PSN Selected"); }
-			 }
-			 
 			
-			System.out.println("OK Button"+addShipment.addPSN());
-		/*	Select elementSelect=new Select(driver.findElement(By.id("iata_psn_pop")));
-			elementSelect..selectByVisibleText(SelectPSN);*/
+		
+	
+		/*	List<WebElement> selectPSNOptionsElements = addShipment.selectPSNOptions();
 
-			addShipment.addPSN().click();}
-			
+			for (WebElement selectPSN : selectPSNOptionsElements) {
+				//System.out.println(SelectPSN);
+				if (selectPSN.getText().contains(SelectPSN)) {
+					System.out.println(selectPSN.getText());
+					
+
+					selectPSN.click();
+					logger.info("PSN Selected");
+				}
+
+			}
+
+          
+			Thread.sleep(1000); 
+
+			addShipment.addPSN().click();
+			logger.info("Added PSN");
+
+		}*/
 		
 		else if (UNNumber.equals(elementProperties.getProperty("UN1212"))) {
 
@@ -452,6 +467,7 @@ public class conditional extends Baseclass {
 
 					selectPSN.click();
 					logger.info("PSN Selected");
+					break;
 				}
 
 			}
