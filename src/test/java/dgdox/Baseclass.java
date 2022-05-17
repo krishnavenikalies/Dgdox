@@ -121,7 +121,7 @@ public class Baseclass {
 		return driver;
 	}
 	
-     
+     //screenshot code 
 	public String getScreenShotPath(String testcaseName, WebDriver driver) throws IOException {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
